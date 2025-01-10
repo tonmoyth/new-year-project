@@ -6,3 +6,63 @@
     font-variation-settings:
       "wdth" 100;
   }
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header style */
+header{
+    margin: 50px 140px;
+}
+header .hero-container{
+    background-image: linear-gradient(to bottom,rgb(72, 71, 71),rgba(7, 2, 17, 0) 100%),url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+}
+header .hero-container .mini-tittle{
+    font-weight: 400px;
+    font-size: 32px;
+}
+header .hero-container .big-tittle{
+    font-weight: 900px;
+    font-size: 72px;
+}
+/* main area section one tyle */
+.main-area{
+    margin: 50px 140px;
+}
+.main-area .section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-one .discount{
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 15px;
+}
+.section-one .sub-tittle{
+    color: rgb(255, 0, 0);
+    margin-bottom: 15px;
+}
+.section-one .all{
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+.section-one .image-area{
+    width: 700px;
+}
+.section-one .image-area img{
+    width: 100%;
+}
